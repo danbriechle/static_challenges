@@ -1,0 +1,37 @@
+.page_header {
+  float: left;
+  padding: 10px
+}
+
+.login {
+  float: right;
+}
+
+.nav_bar {
+  float: right
+}
+
+.buttons {
+  float: right;
+  padding: 10px
+}
+
+.main {
+  float: center
+}
+
+.left-main {
+  float: center
+  }
+
+.landmarks {
+  float: right
+}
+
+.landmarks-pics {
+  float: right
+}
+
+.footer {
+  float: center
+}
