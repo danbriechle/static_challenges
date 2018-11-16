@@ -29,7 +29,8 @@
 }
 
 .landmarks-pics {
-  float: right
+  float: right;
+  vertical-align: top
 }
 
 .footer {
