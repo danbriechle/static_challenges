@@ -1,38 +1,70 @@
-.page_header {
+header {
+  background-color: red;
+  height: 54px
+}
+
+header h1 {
   float: left;
-  padding: 10px
+  color: white
 }
 
-.login {
+header button {
+  color: white;
+  background-color: red;
   float: right;
+  border: none
 }
 
-.nav_bar {
-  float: right
+nav {
+  height: 35px;
+  background-color: grey;
 }
 
-.buttons {
+nav button {
+  height: 35px;
+  background-color: grey;
   float: right;
-  padding: 10px
+  color: white;
+  padding: 10px;
+  border: none
 }
 
-.main {
-  float: center
+.main img {
+  width: 1000px;
 }
 
-.left-main {
-  float: center
-  }
+.main h1 {
+  color: black
+}
+
+.words {
+  float: left
+}
 
 .landmarks {
   float: right
 }
 
-.landmarks-pics {
-  float: right;
-  vertical-align: top
+.landmarks h1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.landmarks-pics img {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  width: 200px;
+  float: right
 }
 
 .footer {
-  float: center
+  height: 45px;
+  background: grey;
+  align: bottom
+}
+
+.footer h1 {
+  float: right;
+  color: white
 }
